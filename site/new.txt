@@ -1,0 +1,7 @@
+<html>
+<head>
+<title>New Site</title>
+</head>
+<body>
+This is for internal linking purpose</body>
+</html>
