@@ -1,0 +1,13 @@
+body{
+         margin: 0;
+         padding: 20px;
+      }
+div{
+         position: relative;
+      }
+      h1{
+         text-align: center;
+      }
+      #paragraph{
+         padding: 10px;
+      }
