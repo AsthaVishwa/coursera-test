@@ -5,180 +5,198 @@
 <title>Hello Coursera</title>
 <style>
 
-
-
-section{
-	position: absolute;
-	bottom: 80px;
-	right: 20px;
+body{
+	margin: 0;
 }
-p{
-	width: 50%;
+
+.row{
+	width: 100%;
+	margin: 20px;
+}
+
+
+div{
+	
 	position: relative;
-	top: 50px;
-	left: 60px;
 }
+
+
+h1{
+	text-align: center;
+}
+
+#paragraph{
+	padding: 10px;
+}
+
+
+#one{
+	background-color: gray;
+	width: 350px;
+}
+
+
 #p1{
-	background-color: Red;
+	box-sizing: border-box;
+	margin: 0;
+	text-align: center;
+    background-color: pink;
+    border: 1px solid black;
+
+    position: absolute;
+    right: 0;
+    top:0;
 }
+
+
 #p2{
-	background-color: white;
-	float: right;
+	box-sizing: border-box;	
+	margin: 0;
+	color: white;
+	text-align: center;
+	background-color: red;
+    border: 1px solid black;
+
+    position: absolute;
+    right: 0;
+    top:0;
 }
+
+
 #p3{
-	background-color: Yellow;
-	clear: left;
-}
-#p4{
-	background-color: Blue;
-}
-#p5{
-	background-color: brown;
-	border: 1px solid;
-	width: 50px;
-	height: 50px;
-}
-#p6{
-	background-color: grey;
-	border: 1px solid;
-	width: 300px;
-	height: 300px;
-}
-.row{width: 100%;}
-
-@media(min-width: 1200px){
-
-.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
-{float: left;
-border: 1px solid black;
+	box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    background-color: yellow;
+    border: 1px solid black;
+  
+    position: absolute;
+    right: 0;
+    top:0;
 }
 
-.col-lg-1{
-	width: 8.33%;
+
+
+/****Desktop Version****/
+@media(min-width: 992px){
+.c-d-1,.c-d-2,.c-d-3,.c-d-4,.c-d-5,.c-d-6,.c-d-7,.c-d-8,.c-d-9,.c-d-10,.c-d-11,.c-d-12
+{  
+	float: left;
+    margin-right: .1px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#one{
+width: 80%;
+}
+.c-d-1{width: 8.33%;}
+.c-d-2{width: 16.66%;}
+.c-d-3{width: 25%;}
+.c-d-4{width: 33.33%;}
+.c-d-5{width: 41.66%;}
+.c-d-6{width: 50%;}
+.c-d-7{width: 58.33%;}
+.c-d-8{width: 66.66%;}
+.c-d-9{width: 74.99%;}
+.c-d-10{width: 83.33%;}
+.c-d-11{width: 91.66%;}
+.c-d-12{width:100%;}
 }
 
-.col-lg-2{
-	width: 16.66%;
+/****Tablet Version****/
+@media(min-width: 768px) and (max-width: 991px){
+.c-t-1,.c-t-2,.c-t-3,.c-t-4,.c-t-5,.c-t-6,.c-t-7,.c-t-8,.c-t-9,.c-t-10,.c-t-11,.c-t-12
+{
+	float: left;
+    margin-left: .1px;
+    margin-right: .1px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#one{
+width: 80%;
+}
+.c-t-1{width: 8.33%;}
+.c-t-2{width: 16.66%;}
+.c-t-3{width: 25%;}
+.c-t-4{width: 31%;}
+.c-t-5{width: 41.66%;}
+.c-t-6{width: 50%;}
+.c-t-7{width: 58.33%;}
+.c-t-8{width: 66.66%;}
+.c-t-9{width: 74.99%;}
+.c-t-10{width: 83.33%;}
+.c-t-11{width: 91.66%;}
+.c-t-12{width:100%;}
 }
 
-.col-lg-3{
-	width: 25%;
+/****Mobile Version****/
+@media(max-width: 767px){
+.c-m-1,.c-m-2,.c-m-3,.c-m-4,.c-m-5,.c-m-6,.c-m-7,.c-m-8,.c-m-9,.c-m-10,.c-m-11,.c-m-12
+{
+	float: left;
+    margin-left: .1px;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
-
-.col-lg-4{
-	width: 33%;
+#one{
+width: 80%;
 }
-
-.col-lg-5{
-	width: 41.66%;
-}
-
-.col-lg-6{
-	width: 50%;
-}
-
-.col-lg-7{
-	width: 58.33%;
-}
-
-.col-lg-8{
-	width: 66.66%;
-}
-
-.col-lg-9{
-	width: 74.99%;
-}
-
-.col-lg-10{
-	width: 83.33%;
-}
-
-.col-lg-11{
-	width: 91.66%;
-}
-
-.col-lg-12{
-	width: 100%;
-}}
-
-@media(min-width: 950px) and (max-width: 1199px){
-
-.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
-{float: left;
-border: 1px solid black;}
-
-.col-md-1{
-	width: 8.33%;
-}
-
-.col-md-2{
-	width: 16.66%;
-}
-
-.col-md-3{
-	width: 25%;
-}
-
-.col-md-4{
-	width: 33%;
-}
-
-.col-md-5{
-	width: 41.66%;
-}
-.col-md-6{
-	width: 50%;
-}
-
-.col-md-7{
-	width: 58.33%;
-}
-
-.col-md-8{
-	width: 66.66%;
-}
-
-.col-md-9{
-	width: 74.99%;
-}
-
-.col-md-10{
-	width: 83.33%;
-}
-.col-md-11{
-	width: 91.66%;
-}
-
-.col-md-12{
-	width: 100%;
-}
+.c-m-1{width: 8.33%;}
+.c-m-2{width: 16.66%;}
+.c-m-3{width: 25%;}
+.c-m-4{width: 33.33%;}
+.c-m-5{width: 41.66%;}
+.c-m-6{width: 50%;}
+.c-m-7{width: 58.33%;}
+.c-m-8{width: 66.66%;}
+.c-m-9{width: 74.99%;}
+.c-m-10{width: 83.33%;}
+.c-m-11{width: 91.66%;}
+.c-m-12{width:100%;}
 }
 
 </style>
 </head>
 <body>
-<span>
-	<p id="p1">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[3] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-	<p id="p2">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[3] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-	<p id="p3">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[3] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-	<p id="p4">Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[3] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-<section>Floating elements</section>
-</span>
 
-<p id="p5"></p>
+	<h1>Our Menu</h1>
 
-<p id="p6"></p>
+<section class="row">
 
-<div class="row">
-	<div class="col-lg-3 col-md-6"><p>Item1</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item2</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item3</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item4</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item5</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item6</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item7</p></div>
-	<div class="col-lg-3 col-md-6"><p>Item8</p></div>
+
+
+
+<div id="one">
+<div class="c-d-4 c-t-6 c-m-12">
+
+	<h2 id="p1" >Chicken</h2>
+
+	<p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+
+
+
+
+<div class="c-d-4 c-t-6 c-m-12">
+
+	<h2 id= "p2">Beef</h2>
+
+	<p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
+
+
+
+
+<div class="c-d-4 c-t-6 c-m-12">
+
+	<h2 id="p3">Sushi</h2>
+
+    <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
 </div>
+
+
+
+</section>
+
 </body>
 </html>
 
